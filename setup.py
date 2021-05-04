@@ -1,4 +1,6 @@
 # flake8: noqa
+
+# The following code is from ddbourgin.
 from codecs import open
 
 from setuptools import setup, find_packages
@@ -9,6 +11,7 @@ with open("README.md", encoding="utf-8") as f:
 with open("requirements.txt") as requirements:
     REQUIREMENTS = [r.strip() for r in requirements if r != "\n"]
 
+# These are the URLs needed.
 PROJECT_URLS = {
     "Bug Tracker": "https://github.com/ddbourgin/numpy-ml/issues",
     "Documentation": "https://numpy-ml.readthedocs.io/en/latest/",
